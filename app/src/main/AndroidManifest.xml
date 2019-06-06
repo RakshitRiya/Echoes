@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.talkingfingers">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/robo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/robo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name="com.example.Learn.learnandplay" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.Game2.AnimalsCardCategory" android:screenOrientation="portrait" />
+        <activity android:name="com.example.Game2.FruitsCardCategory" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GameSelect_Activity"
+            android:label="@string/title_activity_game_select_"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Play_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.game1.Game1Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.example.game1.Game1End" android:screenOrientation="portrait" />
+        <activity android:name="com.example.game1.Game1Main" android:screenOrientation="portrait" />
+        <activity android:name="com.example.Game2.Game2Main" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.Game2.EmotionsCardCategory" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.Game2.Game2End" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.stories.Stories" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.support.Support_Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.stories.OfflineVideo" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.HomePage.IntroActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.HomePage.SplashScreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.game3.Game3Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.example.HomePage.MainActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.example.Translate.TranslateActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.example.ocr_reader.activities.OcrCaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.ocr_reader.activities.OCRMain" android:screenOrientation="portrait"/>
+        <service
+            android:name="com.example.SignBoard.SoftKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <meta-data
+            android:name="android.view.im"
+            android:resource="@xml/method" />
+    </application>
+
+</manifest>

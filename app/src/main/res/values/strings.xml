@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Echoes</string>
+    <string-array name="states">
+        <item>Choose your State</item>
+        <item>Karnataka</item>
+        <item>Delhi</item>
+    </string-array>
+    <string name="title_activity_game_select_">GameSelect_Activity</string>
+    <string name="enter_your_query">Enter your query</string>
+    <string name="speak">Speak</string><!-- Title for Latin keyboard  -->
+    <string name="ime_name">SignBoard</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="send_email_text">Send Email</string>
+    <string name="mail_intent_chooser_text">Send mail...</string>
+    <string name="no_email_client_error">There are no email clients installed.</string>
+    <string name="copy_text">Copy to clipboard</string>
+    <string name="clipboard_copy_successful_message">Copied to clipboard.</string>
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+
+    <string name="steps">You can enable the keyboard by first clicking on Enable Keyboard and toggling Sboard.
+    And then clicking on Select Keyboard and choosing Sboard.</string>
+</resources>

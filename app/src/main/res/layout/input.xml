@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.SignBoard.LatinKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_alignParentBottom="true"
+    android:paddingTop="0dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keyPreviewLayout="@layout/preview"
+    android:keyBackground="@color/colorTransparent"
+    android:keyTextColor="#222222"
+    android:background="@color/colorWhite"
+    android:popupLayout="@layout/keyboard_popup_layout">
+
+</com.example.SignBoard.LatinKeyboardView>

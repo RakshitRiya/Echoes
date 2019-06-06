@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.constraint.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <VideoView android:layout_height="200dp" android:layout_width="match_parent" app:layout_constraintVertical_bias="0.054" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="8dp" android:layout_marginStart="8dp" android:layout_gravity="center" android:id="@+id/vdVw"/>
+
+    <android.support.design.widget.FloatingActionButton android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.43" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="8dp" android:layout_marginStart="8dp" android:id="@+id/video" app:layout_anchorGravity="bottom|right|end" app:layout_anchor="@id/appBarLayout" android:tint="@android:color/white" android:src="@drawable/sendicon" android:layout_marginRight="8dp" android:layout_marginLeft="8dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="335dp" app:layout_constraintVertical_bias="0.218" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="56dp" android:layout_marginStart="8dp" android:id="@+id/editText" app:layout_constraintTop_toBottomOf="@+id/vdVw" app:layout_constraintEnd_toStartOf="@+id/imageButton" app:layout_constraintBottom_toTopOf="@+id/button" android:inputType="textPersonName" android:importantForAutofill="no" android:hint="@string/enter_your_query" android:ems="10"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="144dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorTransparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.284"
+        app:srcCompat="@mipmap/mic" />
+
+    <ImageView
+        android:id="@+id/scanbutton"
+        android:layout_width="115dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorWhite"
+        android:src="@drawable/ic_linked_camera_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+</android.support.constraint.ConstraintLayout>

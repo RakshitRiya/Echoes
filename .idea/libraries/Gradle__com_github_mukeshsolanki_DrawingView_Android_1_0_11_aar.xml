@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mukeshsolanki:DrawingView-Android:1.0.11@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DrawingView-Android-1.0.11.aar/e4d76b6ac4676b01d565e04748d9394f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DrawingView-Android-1.0.11.aar/e4d76b6ac4676b01d565e04748d9394f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mukeshsolanki/DrawingView-Android/1.0.11/143724b8d31b563d4e5aa738475a9680bba195be/DrawingView-Android-1.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
